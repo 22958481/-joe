@@ -1,0 +1,80 @@
+<html>
+<head>
+  <meta  charset="UTF-8">
+  <script type="text/javascript" src="checkdata.js"></script>
+</head>
+<body>
+  <form name="form1" method="post" action="add-finish.php"  enctype="multipart/form-data"  onSubmit='return CheckFields();'>
+  <table  border=0>
+  <p><marquee bgcolor="yellow" width="1320" height="20" >歡迎來到莊哲輝的自製網頁</marquee></p>
+  <body bgcolor="azure">
+  
+ <a href="https://buzzorange.com/techorange/2018/11/01/taiwan-the-new-company-act/"><img src="7.jpg" height="400" width="400" align="middle"></a></p>
+ <a href="https://buzzorange.com/techorange/2018/11/01/taiwan-the-new-company-act/">「新公司法」上路！ 6 個 QA 幫中小企業主和新創搞懂該注意些什麼</a></p>
+ <h3>新公司法將於 11 月 1 日施行，其中新增公司資訊申報規定，將影響逾 70 萬家企業，經濟部因此提供 6 大簡易 QA，並在申報平台放上更詳細資訊，讓企業可於 11 月 1 日起順利申報。</h3>
+
+<h3>為因應國際洗錢防制趨勢並配合洗錢防制政策，新公司法新增公司資訊申報的規定，公司每年應定期向台灣集中保管結算所（TDCC）所設置的電子資訊平台「公司負責人及主要股東資訊申報平台」，申報董監事、經理人及持股超過 1 成的主要股東資料。</h3>
+
+<h3>經濟部也提供簡要版的操作指南，以 6 大 Q&A 的方式解決企業面對申報新制最常有的問題。</h3>
+    <td>公司名稱：</td>
+	<td><input type="text" name="username" /></td>
+  </tr>
+  <tr>
+	<td>負責人：</td>
+	<td><input type="text" name="passwd" /></td>
+  </tr>	
+  
+  <tr>
+    <td>公司成立日期：</td>
+	<td><input type="date" name="birth" /></td>
+  </tr>
+  
+  <tr>
+	<td>行業：</td>
+	<td><select name="blood">
+		<option value="科技業" selected="on">科技業</option>
+		<option value="農、林、漁、牧業">農、林、漁、牧業</option>
+		<option value="礦業及土石採取業">礦業及土石採取業</option>
+		<option value="製造業">製造業</option>
+		<option value="藝術、娛樂及休閒服務業">藝術、娛樂及休閒服務業</option>
+		<option value="教育業">教育業</option>
+		<option value="醫療保健及社會工作服務業">醫療保健及社會工作服務業</option>
+		</select>
+	</td>
+  </tr>
+ 
+ <tr>
+   <td>資產：</td>
+   <td>
+		<input type="checkbox" name="sc" value="1百萬以上">1百萬以上
+		<input type="checkbox" name="dadads" value="一千萬以上">一千萬以上
+        <input type="checkbox" name="SAD" value="一億以上">一億以上
+   </td>
+  </tr>
+    
+  <tr>
+    <td>業務品項：</td>
+	<td><textarea name="business" cols="40"  rows="5" >
+	    </textarea>
+	</td>
+  </tr>
+   
+  <tr>
+   <td>地址：</td>
+   <td><input type="text" name="address"> </td>
+  </tr>
+  
+  <tr>
+    <td>信箱：</td>
+	<td><input type="text" name="email" /></td>
+  </tr>
+   
+ 
+  <tr>
+    <td><input type="submit" value="登記" /></td>
+	<td><input type="reset" value="清除" /></td>
+  </tr>
+   </table>
+  </form>
+</body>
+</html>
